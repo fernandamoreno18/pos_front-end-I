@@ -1,0 +1,25 @@
+body{
+    background-color: #DFD0B8;
+}
+
+header {
+    background-color: #153448;
+    width: 100%;
+    padding: 2rem;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    margin: 0 5rem;
+    color: #DFD0B8;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid #3C5B6F;
+}
