@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
 body{
+    font-family: "Freeman", sans-serif;
     background-color: #DFD0B8;
 }
 
@@ -22,4 +26,51 @@ header nav ul li a {
 }
 header nav ul li a:hover{
     border-bottom: 2px solid #3C5B6F;
+}
+
+.produtos {
+    margin: 2%;
+}
+
+.produtos__lista{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.produtos__item {
+    max-width: 20rem;  
+    list-style-type: none;
+}
+
+.produtos_descricao {
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.produtos__informacoes h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.produtos__informacoes h4{
+    font-size: 1.5rem;
+}
+
+.produtos__informacoes s{
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: red;
+}
+
+footer {
+    font-family: "PT Sans Narrow", sans-serif;
+    background-color: black;
+    color: #DFD0B8;
+    text-align: center;
+    padding: 1rem;
+
 }
